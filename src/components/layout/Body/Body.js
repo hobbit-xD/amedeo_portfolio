@@ -1,14 +1,14 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import { BodyStyled } from './BodyStyled';
 
 function Body({ title, children }) {
     return (
-        <div>
+        <BodyStyled>
             <Header title={title} />
             {children}
-            <Footer />
-        </div>
+        </BodyStyled>
     );
 }
 

@@ -1,14 +1,16 @@
 import styled from 'styled-components';
+import Colors from 'theme/Colors';
 
 export const ButtonStyled = styled.div`
     display: inline-block;
-    background-color: HSL(220, 69%, 61%);
-    color: #fff;
+    background-color: ${Colors.firstColor};
     padding: 1rem;
-    border-radius: 0.4rem;
+    border-radius: 0.6rem;
+    color: white;
+    cursor: pointer;
 
-    a {
-        text-decoration: none;
+    &:hover {
+        background-color: ${Colors.firstColor_Alt};
     }
 
     .button-flex {

@@ -8,9 +8,15 @@ function SocialMedia() {
     return (
         //dimensione icone default =24
         <SocialMediaStyled>
-            <UilLinkedin size="30" />
-            <UilInstagram size="30" />
-            <UilGitHub size="30" />
+            <a href="#" className="icon" target="_blank">
+                <UilLinkedin size="24" />
+            </a>
+            <a href="#" className="icon" target="_blank">
+                <UilInstagram size="24" />
+            </a>
+            <a href="#" className="icon" target="_blank">
+                <UilGitHub size="24" />
+            </a>
         </SocialMediaStyled>
     );
 }
