@@ -3,14 +3,12 @@ import { ButtonStyled } from './ButtonStyled';
 
 import UilArrow from '@iconscout/react-unicons/icons/uil-navigator';
 
-function Button() {
+function Button({ text, icon }) {
     return (
         <ButtonStyled>
             <div className="button-flex">
-                Contact me
-                <span className="button-icon">
-                    <UilArrow />
-                </span>
+                {text}
+                <span className="button-icon">{icon}</span>
             </div>
         </ButtonStyled>
     );

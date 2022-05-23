@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Colors from 'theme/Colors';
 
 export const HeaderStyled = styled.div`
     width: 100%;
@@ -9,6 +8,7 @@ export const HeaderStyled = styled.div`
         align-items: center;
         padding: 1rem 0;
         justify-content: space-between;
+        border-bottom: 2px solid #f1f1f1;
 
         h1 {
             font-size: 24px;
@@ -89,6 +89,52 @@ export const HeaderStyled = styled.div`
 
                     &:hover {
                         text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        .hamburger {
+            display: flex;
+        }
+        .menu {
+            display: none;
+        }
+
+        .menu_expanded {
+            ul {
+                position: absolute;
+                top: ${(props) => props.height}px;
+                left: 0;
+                // stacks the li tags vertically
+                display: flex;
+                flex-direction: column;
+                // makes menu span full height and width
+                width: 100%;
+                height: calc(100vh - ${(props) => props.height}px);
+                background-color: white;
+                //justify-content: center;
+
+                //border-top: 1px solid black;
+
+                li {
+                    text-align: center;
+                    top: 50px;
+
+                    &:last-child {
+                        margin-right: 15px;
+                    }
+
+                    a {
+                        color: black;
+                        width: 100%;
+                        // padding: 1.5rem 0;
                     }
                 }
             }
