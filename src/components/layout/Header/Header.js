@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import { Container } from 'theme/GlobalStyles';
 import { menuLinks } from 'utils/CONSTANTS';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { HeaderStyled } from './HeaderStyled';
 import Hamburger from 'components/units/Hamburger/Hamburger';
 
@@ -24,7 +25,13 @@ function Header({ title, height }) {
                         <ul>
                             {menuLinks.map((ml) => (
                                 <li key={ml.path}>
-                                    <Link to={ml.path}>{ml.name}</Link>
+                                    <HashLink
+                                        smooth
+                                        to={ml.path}
+                                        onClick={() => setIsOpen(!isOpen)}
+                                    >
+                                        {ml.name}
+                                    </HashLink>
                                     {ml.subMenu ? (
                                         <ul>
                                             {ml.subMenu.map((sm) => (

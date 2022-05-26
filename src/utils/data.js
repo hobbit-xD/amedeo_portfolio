@@ -19,9 +19,9 @@ export const AboutData = [
 export const QulificationData = [
     {
         indice: 0,
-        ruolo: 'Computer Engineering',
-        azienda: 'Politecnico di Torino',
-        periodo: '2015 - 2020',
+        ruolo: 'Analista Programmatore',
+        azienda: 'Alten Italia @Centrico',
+        periodo: '2020 - Present',
     },
     {
         indice: 1,
@@ -31,8 +31,31 @@ export const QulificationData = [
     },
     {
         indice: 2,
-        ruolo: 'Analista Programmatore',
-        azienda: 'Alten Italia @ Centrico',
-        periodo: '2020 - Present',
+        ruolo: 'Computer Engineering',
+        azienda: 'Politecnico di Torino',
+        periodo: '2015 - 2020',
+    },
+];
+
+export const SkillData = [
+    {
+        indice: 0,
+        title: 'Frontend Developer',
+        subtitle: 'More than 1 years',
+        list: [
+            { name: 'HTML', percentage: '60' },
+            { name: 'SQL', percentage: '100' },
+            { name: 'React', percentage: '50' },
+        ],
+    },
+    {
+        indice: 1,
+        title: 'Backend Developer',
+        subtitle: 'More than 1 years',
+        list: [
+            { name: 'HTML', percentage: '60' },
+            { name: 'SQL', percentage: '10' },
+            { name: 'React', percentage: '50' },
+        ],
     },
 ];

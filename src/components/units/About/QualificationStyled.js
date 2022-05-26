@@ -36,7 +36,7 @@ export const QualiStyled = styled.div`
     }
 
     .qualification_subtitle {
-        margin-bottom: 2rem;
+        margin-top: 2px;
     }
 
     .qualification_calendar {

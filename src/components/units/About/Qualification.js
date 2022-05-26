@@ -18,7 +18,7 @@ function Qualification() {
                             </div>
                             <div>
                                 <h3 className="qualification_title">{qd.ruolo}</h3>
-                                <span className="qualification_subtitle">{qd.azienda}</span>
+                                <p className="qualification_subtitle">{qd.azienda}</p>
                                 <div className="qualification_calendar">
                                     <UilCalendar size="20" />
                                     {qd.periodo}
@@ -29,7 +29,7 @@ function Qualification() {
                         <div className="qualification_data" key={`quali-${idx}`}>
                             <div>
                                 <h3 className="qualification_title">{qd.ruolo}</h3>
-                                <span className="qualification_subtitle">{qd.azienda}</span>
+                                <p className="qualification_subtitle">{qd.azienda}</p>
                                 <div className="qualification_calendar">
                                     <UilCalendar size="20" />
                                     {qd.periodo}

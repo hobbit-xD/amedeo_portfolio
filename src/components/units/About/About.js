@@ -5,7 +5,8 @@ import UIDownload from '@iconscout/react-unicons/icons/uil-download-alt';
 import Button from '../Button/Button';
 import { AboutData } from 'utils/data';
 import Qualification from './Qualification';
-
+import Skills from './Skills';
+import { SkillData } from 'utils/data';
 function About() {
     return (
         <AboutStyled>
@@ -33,6 +34,11 @@ function About() {
 
             <h3 className="quali-title">My Personal Journey</h3>
             <Qualification />
+
+            <h3 className="skills-title">My Skills</h3>
+            {SkillData.map((sk) => (
+                <Skills indice={sk.indice} title={sk.title} subtitle={sk.subtitle} list={sk.list} />
+            ))}
         </AboutStyled>
     );
 }

@@ -1,3 +1,4 @@
+import ScrollButton from 'components/units/Button/ScrollButton';
 import React, { useEffect, useRef, useState } from 'react';
 //import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -28,6 +29,7 @@ function Body({ title, children }) {
                 <Header title={title} height={headerHeight} />
             </div>
             {children}
+            <ScrollButton />
         </BodyStyled>
     );
 }

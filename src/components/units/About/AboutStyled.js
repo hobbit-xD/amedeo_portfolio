@@ -26,7 +26,7 @@ export const AboutStyled = styled.div`
         margin-left: auto;
         margin-right: auto;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 5rem;
+        column-gap: 2rem;
 
         .about_info {
             display: flex;
@@ -50,7 +50,12 @@ export const AboutStyled = styled.div`
     button {
         background-color: ${Colors.firstColor};
     }
+
     .quali-title {
+        margin-top: 64px;
+        margin-bottom: 32px;
+    }
+    .skills-title {
         margin-top: 64px;
         margin-bottom: 32px;
     }

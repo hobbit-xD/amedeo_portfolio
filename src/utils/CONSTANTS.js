@@ -9,10 +9,10 @@ export const menuLinks = [
     },
     {
         name: 'Repository',
-        path: 'repo',
+        path: '#repo',
     },
     {
         name: 'Contact',
-        path: 'contact',
+        path: '#contact',
     },
 ];
