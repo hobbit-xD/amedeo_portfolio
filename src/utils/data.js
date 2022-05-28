@@ -5,7 +5,7 @@ export const AboutData = [
         descr2: 'Experience',
     },
     {
-        number: '01+',
+        number: '02+',
         descr1: 'Completed',
         descr2: 'Project',
     },
@@ -19,13 +19,13 @@ export const AboutData = [
 export const QulificationData = [
     {
         indice: 0,
-        ruolo: 'Analista Programmatore',
+        ruolo: 'Analyst Programmer',
         azienda: 'Alten Italia @Centrico',
         periodo: '2020 - Present',
     },
     {
         indice: 1,
-        ruolo: 'Gestione Sito Web',
+        ruolo: 'Website Management',
         azienda: 'Pastore Autoveicoli',
         periodo: '2015 - 2020',
     },

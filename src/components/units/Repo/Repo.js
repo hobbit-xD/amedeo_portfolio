@@ -35,7 +35,11 @@ function Repo() {
                         <>
                             {repos.map((rp) => (
                                 <tr key={rp.id}>
-                                    <td data-label="Name">{rp.name}</td>
+                                    <td data-label="Name">
+                                        <a href={rp.html_url} target="_blank" rel="noreferrer">
+                                            {rp.name}
+                                        </a>
+                                    </td>
                                     <td data-label="Description">
                                         {rp.description === null ? '-' : rp.description}
                                     </td>

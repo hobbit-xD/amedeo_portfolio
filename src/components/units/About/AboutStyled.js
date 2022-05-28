@@ -25,12 +25,13 @@ export const AboutStyled = styled.div`
         display: grid;
         margin-left: auto;
         margin-right: auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 350px 1fr; //repeat(2, 1fr);
         column-gap: 2rem;
+        align-items: center;
 
         .about_info {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             margin-bottom: 2.5rem;
 
             .title {
@@ -52,7 +53,7 @@ export const AboutStyled = styled.div`
     }
 
     .quali-title {
-        margin-top: 64px;
+        margin-top: 50px;
         margin-bottom: 32px;
     }
     .skills-title {
@@ -60,12 +61,18 @@ export const AboutStyled = styled.div`
         margin-bottom: 32px;
     }
     @media screen and (max-width: 768px) {
-        flex-direction: column;
-
         .about_details {
             display: grid;
             grid-gap: 1.5rem;
             grid-template-columns: auto;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            align-items: center;
+            justify-items: center;
+
+            .about_info {
+                justify-content: space-between;
+            }
         }
     }
 `;

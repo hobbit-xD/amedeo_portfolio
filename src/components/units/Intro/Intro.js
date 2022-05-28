@@ -21,7 +21,13 @@ function Intro() {
                         <div className="item-2">
                             <h1>Hi, I'm Amedeo</h1>
                             <p>Tech Entusiast</p>
-                            <Button text="Contact Me" icon={<UilArrow />} />
+                            <a
+                                href="https://www.linkedin.com/in/amedeo-iobbi/"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <Button text="Contact Me" icon={<UilArrow />} />
+                            </a>
                         </div>
                         <div className="item-3">
                             <img src={Amedeo} alt="Amedeo_Image" />
@@ -42,7 +48,13 @@ function Intro() {
                     <div className="item-2">
                         <h1>Hi, I'm Amedeo</h1>
                         <p>Tech Entusiast</p>
-                        <Button text="Contact Me" icon={<UilArrow />} />
+                        <a
+                            href="https://www.linkedin.com/in/amedeo-iobbi/"
+                            rel="noreferrer"
+                            target="_blank"
+                        >
+                            <Button text="Contact Me" icon={<UilArrow />} />
+                        </a>
                     </div>
                 </div>
             )}

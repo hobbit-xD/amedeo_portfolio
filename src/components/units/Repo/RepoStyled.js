@@ -5,6 +5,12 @@ export const RepoStyled = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
+
+    a {
+        color: black;
+        text-decoration: underline;
+    }
 
     h1 {
         font-size: 40px;

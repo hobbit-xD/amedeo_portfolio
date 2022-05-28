@@ -11,8 +11,4 @@ export const menuLinks = [
         name: 'Repository',
         path: '#repo',
     },
-    {
-        name: 'Contact',
-        path: '#contact',
-    },
 ];

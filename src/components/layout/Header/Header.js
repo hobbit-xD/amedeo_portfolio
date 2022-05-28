@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Helmet from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Container } from 'theme/GlobalStyles';
 import { menuLinks } from 'utils/CONSTANTS';
 import { Link } from 'react-router-dom';
@@ -12,10 +12,12 @@ function Header({ title, height }) {
     //console.log(isOpen);
     return (
         <>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>{title}</title>
-            </Helmet>
+            <HelmetProvider>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>{title}</title>
+                </Helmet>
+            </HelmetProvider>
             <HeaderStyled height={height}>
                 <Container className="header-container">
                     <Link to="/">

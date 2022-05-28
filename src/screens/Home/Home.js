@@ -9,7 +9,7 @@ import { HomeStyled } from './HomeStyled';
 function Home() {
     return (
         <HomeStyled>
-            <Body title="Amedeo Iobbi - Home">
+            <Body title="Amedeo Iobbi">
                 <div className="body_intro" id="intro">
                     <Intro />
                 </div>

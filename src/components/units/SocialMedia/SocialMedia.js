@@ -8,7 +8,12 @@ function SocialMedia() {
     return (
         //dimensione icone default =24
         <SocialMediaStyled>
-            <a href="https://it.linkedin.com/#" className="icon" target="_blank" rel="noreferrer">
+            <a
+                href="https://www.linkedin.com/in/amedeo-iobbi/"
+                className="icon"
+                target="_blank"
+                rel="noreferrer"
+            >
                 <UilLinkedin size="24" />
             </a>
             <a
