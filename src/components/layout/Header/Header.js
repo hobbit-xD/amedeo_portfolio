@@ -21,7 +21,7 @@ function Header({ title, height }) {
             <HeaderStyled height={height}>
                 <Container className="header-container">
                     <Link to="/">
-                        <h1>Amedeo Iobbi</h1>
+                        <h1>Amedeo I.</h1>
                     </Link>
                     <nav className={isOpen ? 'menu_expanded' : 'menu'}>
                         <ul>
