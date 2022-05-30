@@ -44,8 +44,9 @@ export const SkillData = [
         subtitle: 'More than 1 years',
         list: [
             { name: 'HTML', percentage: '60' },
-            { name: 'SQL', percentage: '100' },
             { name: 'React', percentage: '50' },
+            { name: 'Hugo', percentage: '40' },
+            { name: 'Flutter', percentage: '40' },
         ],
     },
     {
@@ -53,9 +54,11 @@ export const SkillData = [
         title: 'Backend Developer',
         subtitle: 'More than 1 years',
         list: [
-            { name: 'HTML', percentage: '60' },
-            { name: 'SQL', percentage: '10' },
-            { name: 'React', percentage: '50' },
+            { name: 'SQL', percentage: '100' },
+            { name: 'Bash', percentage: '60' },
+            { name: 'Python', percentage: '40' },
+            { name: 'C#', percentage: '30' },
+            { name: '.Net', percentage: '30' },
         ],
     },
 ];
