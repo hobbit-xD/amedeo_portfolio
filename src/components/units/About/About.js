@@ -1,6 +1,7 @@
 import React from 'react';
 import { AboutStyled } from './AboutStyled';
-import Amedeo2 from 'assets/img/DSC00348_mod.JPG';
+//import Amedeo2 from 'assets/img/DSC00348_mod.JPG';
+import Amedeo2 from 'assets/img/IMG_AMEDEO.jpg';
 import UilArrow from '@iconscout/react-unicons/icons/uil-navigator';
 import Button from '../Button/Button';
 import { AboutData } from 'utils/data';
@@ -11,7 +12,7 @@ function About() {
     return (
         <AboutStyled>
             <h1>About Me</h1>
-            <h3>My personal Introduction</h3>
+            <h3>My Personal Introduction</h3>
             <div className="about_details">
                 <img src={Amedeo2} width="350px" alt="Amedeo" />
                 <div className="about_data">
