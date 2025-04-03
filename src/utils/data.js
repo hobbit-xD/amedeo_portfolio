@@ -1,6 +1,6 @@
 export const AboutData = [
     {
-        number: '01+',
+        number: '03+',
         descr1: 'Years',
         descr2: 'Experience',
     },
@@ -44,21 +44,22 @@ export const SkillData = [
         subtitle: 'More than 1 years',
         list: [
             { name: 'HTML', percentage: '60' },
-            { name: 'React', percentage: '50' },
-            { name: 'Hugo', percentage: '40' },
-            { name: 'Flutter', percentage: '40' },
+            { name: 'React', percentage: '40' },
+            { name: 'Flutter', percentage: '30' },
         ],
     },
     {
         indice: 1,
         title: 'Backend Developer',
-        subtitle: 'More than 1 years',
+        subtitle: 'More than 2 years',
         list: [
             { name: 'SQL', percentage: '100' },
             { name: 'Bash', percentage: '60' },
-            { name: 'Python', percentage: '40' },
+            { name: 'Java', percentage: '40' },
+            { name: 'Python', percentage: '30' },
+            { name: 'C', percentage: '30' }
             { name: 'C#', percentage: '30' },
-            { name: '.Net', percentage: '30' },
+            { name: '.Net', percentage: '20' },
         ],
     },
 ];
