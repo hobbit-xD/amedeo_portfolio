@@ -57,7 +57,7 @@ export const SkillData = [
             { name: 'Bash', percentage: '60' },
             { name: 'Java', percentage: '40' },
             { name: 'Python', percentage: '30' },
-            { name: 'C', percentage: '30' }
+            { name: 'C', percentage: '30' },
             { name: 'C#', percentage: '30' },
             { name: '.Net', percentage: '20' },
         ],
